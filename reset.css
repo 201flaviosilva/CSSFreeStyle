@@ -22,10 +22,6 @@ a {
   outline: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 textarea {
   overflow: auto;
   vertical-align: top;
@@ -33,6 +29,11 @@ textarea {
 }
 
 button,
-a {
+a,
+label {
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
