@@ -1,0 +1,238 @@
+$normalColor1: Black;
+$normalColor2: white;
+$dangerColor: red;
+$warningColor: #ecd656;
+$niceColor: green;
+$infoColor: #00b7ff;
+$disabledColor: grey;
+
+.text {
+  // Text
+  font-size: 16px;
+  // Normal
+  &.normal-1 {
+    background-color: $normalColor2;
+    color: $normalColor1;
+  }
+
+  &.normal-2 {
+    background-color: $normalColor1;
+    color: $normalColor2;
+  }
+
+  // Danger
+  &.danger-1 {
+    background-color: $normalColor2;
+    color: $dangerColor;
+  }
+
+  &.danger-2 {
+    background-color: $dangerColor;
+    color: $normalColor1;
+  }
+
+  // Warning
+  &.warning-1 {
+    background-color: $normalColor2;
+    color: $warningColor;
+  }
+
+  &.danger-2 {
+    background-color: $warningColor;
+    color: $normalColor1;
+  }
+
+  // Nice
+  &.nice-1 {
+    background-color: $normalColor2;
+    color: $niceColor;
+  }
+
+  &.nice-2 {
+    background-color: $niceColor;
+    color: $normalColor1;
+  }
+
+  // Info
+  &.info-1 {
+    background-color: $normalColor2;
+    color: $infoColor;
+  }
+
+  &.info-2 {
+    background-color: $infoColor;
+    color: $normalColor1;
+  }
+
+  // Disabled
+  &.disabled-1 {
+    background-color: $normalColor2;
+    color: $disabledColor;
+  }
+
+  &.disabled-2 {
+    background-color: $disabledColor;
+    color: $normalColor1;
+  }
+
+  // Disabled
+  &.disabled-1 {
+    background-color: $normalColor2;
+    color: $disabledColor;
+  }
+
+  &.disabled-2 {
+    background-color: $disabledColor;
+    color: $normalColor1;
+  }
+}
+
+.btn {
+  // Buttons
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+
+  // Normal
+  &.normal-1 {
+    border: 1px solid $normalColor1;
+    background-color: $normalColor2;
+    color: $normalColor1;
+  }
+
+  &.normal-2 {
+    border: 1px solid $normalColor2;
+    background-color: $normalColor1;
+    color: $normalColor2;
+  }
+
+  // Danger
+  &.danger-1 {
+    border: 1px solid $dangerColor;
+    background-color: white;
+    color: $dangerColor;
+  }
+
+  &.danger-2 {
+    border: 1px solid $dangerColor;
+    background-color: black;
+    color: $dangerColor;
+  }
+
+  &.danger-3 {
+    border: 1px solid white;
+    background-color: $dangerColor;
+    color: white;
+  }
+
+  &.danger-4 {
+    border: 1px solid black;
+    background-color: $dangerColor;
+    color: black;
+  }
+
+  // Warning
+  &.warning-1 {
+    border: 1px solid $warningColor;
+    background-color: white;
+    color: $warningColor;
+  }
+
+  &.warning-2 {
+    border: 1px solid $warningColor;
+    background-color: black;
+    color: $warningColor;
+  }
+
+  &.warning-3 {
+    border: 1px solid white;
+    background-color: $warningColor;
+    color: white;
+  }
+
+  &.warning-4 {
+    border: 1px solid black;
+    background-color: $warningColor;
+    color: black;
+  }
+
+  // Nice
+  &.nice-1 {
+    border: 1px solid $niceColor;
+    background-color: white;
+    color: $niceColor;
+  }
+
+  &.nice-2 {
+    border: 1px solid $niceColor;
+    background-color: black;
+    color: $niceColor;
+  }
+
+  &.nice-3 {
+    border: 1px solid white;
+    background-color: $niceColor;
+    color: white;
+  }
+
+  &.nice-4 {
+    border: 1px solid black;
+    background-color: $niceColor;
+    color: black;
+  }
+
+  // Info
+  &.info-1 {
+    border: 1px solid $infoColor;
+    background-color: white;
+    color: $infoColor;
+  }
+
+  &.info-2 {
+    border: 1px solid $infoColor;
+    background-color: black;
+    color: $infoColor;
+  }
+
+  &.info-3 {
+    border: 1px solid white;
+    background-color: $infoColor;
+    color: white;
+  }
+
+  &.info-4 {
+    border: 1px solid black;
+    background-color: $infoColor;
+    color: black;
+  }
+
+  // Disabled
+  &.disabled-1 {
+    border: 1px solid $disabledColor;
+    background-color: white;
+    color: $disabledColor;
+    opacity: 0.9;
+  }
+
+  &.disabled-2 {
+    border: 1px solid $disabledColor;
+    background-color: black;
+    color: $disabledColor;
+    opacity: 0.9;
+  }
+
+  &.disabled-3 {
+    border: 1px solid white;
+    background-color: $disabledColor;
+    color: white;
+    opacity: 0.9;
+  }
+
+  &.disabled-4 {
+    border: 1px solid black;
+    background-color: $disabledColor;
+    color: black;
+    opacity: 0.8;
+  }
+}

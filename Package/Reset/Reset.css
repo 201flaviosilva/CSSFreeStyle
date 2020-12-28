@@ -8,6 +8,8 @@
 
 html,
 body {
+  width: 100vw;
+  height: 100vh;
   overflow-x: hidden;
 }
 
@@ -30,7 +32,9 @@ textarea {
 
 button,
 a,
-label {
+label,
+select,
+option {
   cursor: pointer;
 }
 

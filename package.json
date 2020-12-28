@@ -1,16 +1,19 @@
 {
-  "name": "CSSFreeStyle",
-  "version": "1.0.0",
+  "name": "css-free-style",
+  "version": "1.1.0",
   "description": "The amazing CSS framework for the best animations and transactions 😎",
+  "private": false,
+  "homepage": "https://201flaviosilva.github.io/CSSFreeStyle",
+  "author": "Flavio Silva",
+  "license": "MIT",
+  "keywords": [
+    "CSS"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/201flaviosilva/CSSFreeStyle.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/201flaviosilva/CSSFreeStyle/issues"
-  },
-  "homepage": "#"
+  }
 }
